@@ -8,3 +8,5 @@ def test_invalid_password():
 
 def test_invalid_user():
     assert login("unknown@gmail.com", "admin123") == False
+
+print("CareSync login module")
